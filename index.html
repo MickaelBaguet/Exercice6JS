@@ -7,7 +7,7 @@
     </head>
     <body>
         <form>
-            <label for="firstNumber">Premier nombre : </label><input type="text" id="firstNumber" name="firstNumber"/><br/>
+            <label for="firstNumber">Premier nombre : </label><input type="text" id="firstNumber" name="firstNumber" pattern="[0-9]" title="Votre age" /><br/>
             <label for="secondNumber">Deuxième nombre : </label><input type="text" id="secondNumber" name="secondNumber"/><br/>
             <!-- Bouton appelant la fonction "division()" de la page JS sur un action de clik -->
             <button id="submit" name="submit" onclick="division()">Valider</button>
